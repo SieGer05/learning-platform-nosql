@@ -167,12 +167,50 @@ learning-platform-nosql/
 │   │   └── env.js            # Validation des variables d'environnement
 │   ├── controllers/          # Contrôleurs pour gérer la logique métier
 │   ├── routes/               # Définition des routes
-│   └── services/             # Services pour interagir avec MongoDB et Redis
+│   ├── services/             # Services pour interagir avec MongoDB et Redis
+│   ├── img                   # Contient les screenshots
+│   └── test/                 # Contient les tests
+│       └── test.js
 ├── .env                      # Variables d'environnement
 ├── .gitignore                # Fichiers à ignorer par Git
 ├── package.json              # Dépendances et scripts
 └── README.md                 # Documentation du projet
 ```
+
+---
+
+### Acheminement du projet
+
+#### Capture d'écran : Démarrage réussi de l'application
+Voici une capture d'écran montrant le démarrage réussi de l'application :
+
+![Application démarrée avec succès](./img/App_success.png)
+
+#### Capture d'écran : Configuration MongoDB Atlas
+Voici les captures d'écran des étapes principales pour configurer MongoDB Atlas :
+
+1. Création d'une nouvelle organisation :
+   ![Création Organisation](./img/Mongo_atlass1.png)
+
+2. Création d'un nouveau projet :
+   ![Création Projet](./img/Mongo_atlass2.png)
+
+3. Création du cluster et obtention du driver Node.js :
+   ![Création Cluster](./img/Mongo_atlass3.png)
+
+4. Ajout de la base de données `learning_platform` et des collections `courses` et `students` :
+   ![Base de données et collections](./img/Mongo_atlass4.png)
+
+#### Capture d'écran : Configuration Redis Cloud
+Voici une capture d'écran de la configuration de l'instance Redis Cloud utilisée pour ce projet :
+
+![Configuration Redis Cloud](./img/Redis_cloud.png)
+
+#### Capture d'écran : Démarrage réussi de l'application
+
+Voici une capture d'écran montrant le démarrage réussi de l'application :
+
+![App Success](./img/App_success.png)
 
 ---
 
