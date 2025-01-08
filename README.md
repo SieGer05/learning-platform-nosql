@@ -181,11 +181,6 @@ learning-platform-nosql/
 
 ### Acheminement du projet
 
-#### Capture d'écran : Démarrage réussi de l'application
-Voici une capture d'écran montrant le démarrage réussi de l'application :
-
-![Application démarrée avec succès](./img/App_success.png)
-
 #### Capture d'écran : Configuration MongoDB Atlas
 Voici les captures d'écran des étapes principales pour configurer MongoDB Atlas :
 
